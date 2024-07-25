@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM openjdk:8
 MAINTAINER Eric Li <ericli.xj@gmail.com>
 
 ADD ./target/registry.jar /app/
